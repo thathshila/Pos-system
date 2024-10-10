@@ -12,18 +12,7 @@
     }
     .nav-link{
         font-size: 30px;
-    }
-    #customer{
-        width: 300px;
-        height: 80vh;
-        border: 2px solid cyan;
-        background: lightgreen;
-    }
-    #item{
-        width: 300px;
-        height: 80vh;
-        border: 2px solid cyan;
-        background: lightgreen;
+        color:#F05A7E;
     }
     #image{
         width: 700px;
@@ -68,54 +57,54 @@
                 <div class="col">
                     <p id="p1">WELCOME
                     <br>T0
-                   <br> PLANT NURSERY</p>
+                   <br> SUPER MART</p>
                 </div>
                 <div class="col">
-                   <img id="image" src="asserts/images/tree.jpg">
+                   <img id="image" src="asserts/images/pos-home.jpg">
                 </div>
             </div>
         </div>
     </div>
     <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
         <div class="container text-center">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3" style="max-width: 1220px; color: brown; border: 3px solid rosybrown; font-weight: bold;">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="asserts/images/customer.png">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Customer</h5>
+                            <h5 class="card-title" style="font-size: 35px;">Customer</h5>
                         </div>
                     </div>
                 </div>
             </div>
 
-        <div class="row">
-            <div class="col" id="customer">
-                <div class="input-group input-group-sm mb-5 mt-5">
+        <div class="row" style="background-color: #EAE4DD">
+            <div class="col" id="customer" style=" width: 300px; height: 80vh;  border: 2px solid black;">
+                <div class="input-group input-group-sm mb-5 mt-5" style="border: 1px solid black;">
                     <span class="input-group-text" id="inputGroup-sizing-sm">ID</span>
                     <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                 </div>
 
-                <div class="input-group mb-5">
+                <div class="input-group mb-5" style="border: 1px solid black;">
                     <span class="input-group-text" id="inputGroup-sizing-default3">Name</span>
                     <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
 
-                <div class="input-group mb-5">
+                <div class="input-group mb-5" style="border: 1px solid black;">
                     <span class="input-group-text" id="inputGroup-sizing-default">NIC</span>
                     <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                 </div>
 
-                <div class="input-group input-group-lg">
+                <div class="input-group input-group-lg" style="border: 1px solid black;">
                     <span class="input-group-text" id="inputGroup-sizing-lg">Address</span>
                     <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" style="height: 100px">
                 </div>
-                <button class="btn btn-primary mt-5 mr-5" type="submit">Save</button>
-                <button class="btn btn-primary mt-5 mr-5" type="submit">update</button>
-                <button class="btn btn-primary mt-5 mr-5" type="submit">delete</button>
-
+                <button type="button" class="btn btn-outline-dark" style="margin-top: 55px;">SAVE</button>
+                <button type="button" class="btn btn-outline-dark" style="margin-top: 55px;">UPDATE</button>
+                <button type="button" class="btn btn-outline-dark" style="margin-top: 55px;">DELETE</button>
+                <button type="button" class="btn btn-outline-dark" style="margin-top: 55px;">SEARCH</button>
             </div>
             <div class="col">
                 <table class="table caption-top">
@@ -129,24 +118,24 @@
                     </tr>
                     </thead>
                     <tbody>
-<!--                    <tr>-->
-<!--                        <th scope="row">1</th>-->
-<!--                        <td>Mark</td>-->
-<!--                        <td>Otto</td>-->
-<!--                        <td>@mdo</td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <th scope="row">2</th>-->
-<!--                        <td>Jacob</td>-->
-<!--                        <td>Thornton</td>-->
-<!--                        <td>@fat</td>-->
-<!--                    </tr>-->
-<!--                    <tr>-->
-<!--                        <th scope="row">3</th>-->
-<!--                        <td>Larry</td>-->
-<!--                        <td>the Bird</td>-->
-<!--                        <td>@twitter</td>-->
-<!--                    </tr>-->
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
                     </tbody>
                 </table>
             </div>
@@ -155,46 +144,43 @@
     </div>
     <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
         <div class="container text-center">
-            <div class="card mb-3" style="max-width: 540px;">
+            <div class="card mb-3" style="max-width: 1220px; color: brown; border: 3px solid rosybrown; font-weight: bold;">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="asserts/images/customer.png">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">ItemStock</h5>
+                            <h5 class="card-title" style="font-size: 35px;">ITEM  STOCK</h5>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col" id="item">
-                    <div class="input-group input-group-sm mb-5 mt-5">
+            <div class="row"  style="background-color: #EAE4DD">
+                <div class="col" id="item"  style=" width: 300px; height: 80vh;  border: 2px solid black; ">
+                    <div class="input-group input-group-sm mb-5 mt-5" style="border: 1px solid black;">
                         <span class="input-group-text" id="inputGroup-sizing-sm1">ID</span>
                         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
                     </div>
 
-                    <div class="input-group mb-5 mt-5">
+                    <div class="input-group mb-5 mt-5" style="border: 1px solid black;">
                         <span class="input-group-text" id="inputGroup-sizing-default2">Name</span>
                         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
 
-                    <div class="input-group mb-5 mt-5">
+                    <div class="input-group mb-5 mt-5" style="border: 1px solid black;">
                         <span class="input-group-text" id="inputGroup-sizing-default1">Quantity</span>
                         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
                     </div>
 
-                    <div class="input-group input-group-lg">
+                    <div class="input-group input-group-lg" style="border: 1px solid black;">
                         <span class="input-group-text" id="inputGroup-sizing-default4">UnitPrice </span>
                         <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-
-
                     </div>
-                    <button class="btn btn-primary mt-5" type="submit">Save</button>
-                    <button class="btn btn-primary mt-5" type="submit">update</button>
-                    <button class="btn btn-primary mt-5" type="submit">delete</button>
-
+                    <button type="button" class="btn btn-outline-dark" style="margin-top: 55px;">SAVE</button>
+                    <button type="button" class="btn btn-outline-dark" style="margin-top: 55px;">UPDATE</button>
+                    <button type="button" class="btn btn-outline-dark" style="margin-top: 55px;">DELETE</button>
+                    <button type="button" class="btn btn-outline-dark" style="margin-top: 55px;">SEARCH</button>
                 </div>
                 <div class="col">
                     <table class="table caption-top">
@@ -208,24 +194,24 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <!--                    <tr>-->
-                        <!--                        <th scope="row">1</th>-->
-                        <!--                        <td>Mark</td>-->
-                        <!--                        <td>Otto</td>-->
-                        <!--                        <td>@mdo</td>-->
-                        <!--                    </tr>-->
-                        <!--                    <tr>-->
-                        <!--                        <th scope="row">2</th>-->
-                        <!--                        <td>Jacob</td>-->
-                        <!--                        <td>Thornton</td>-->
-                        <!--                        <td>@fat</td>-->
-                        <!--                    </tr>-->
-                        <!--                    <tr>-->
-                        <!--                        <th scope="row">3</th>-->
-                        <!--                        <td>Larry</td>-->
-                        <!--                        <td>the Bird</td>-->
-                        <!--                        <td>@twitter</td>-->
-                        <!--                    </tr>-->
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
                         </tbody>
                     </table>
                 </div>
@@ -315,22 +301,22 @@
                     </thead>
                     <tbody>
                     <tr>
-<!--                        <td>Item 1</td>-->
-<!--                        <td>$10.00</td>-->
-<!--                        <td>2</td>-->
-<!--                        <td>$20.00</td>-->
+                        <td>Item 1</td>
+                        <td>$10.00</td>
+                        <td>2</td>
+                        <td>$20.00</td>
                     </tr>
                     <tr>
-<!--                        <td>Item 2</td>-->
-<!--                        <td>$15.00</td>-->
-<!--                        <td>1</td>-->
-<!--                        <td>$15.00</td>-->
+                        <td>Item 2</td>
+                        <td>$15.00</td>
+                        <td>1</td>
+                        <td>$15.00</td>
                     </tr>
                     <tr>
-<!--                        <td>Item 3</td>-->
-<!--                        <td>$8.00</td>-->
-<!--                        <td>3</td>-->
-<!--                        <td>$24.00</td>-->
+                        <td>Item 3</td>
+                        <td>$8.00</td>
+                        <td>3</td>
+                        <td>$24.00</td>
                     </tr>
                     </tbody>
                     <tfoot>
